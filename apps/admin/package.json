@@ -1,0 +1,28 @@
+{
+  "name": "@myrishta/admin",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "check": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run --exclude .next/**"
+  },
+  "dependencies": {
+    "@myrishta/config": "workspace:*",
+    "@myrishta/types": "workspace:*",
+    "next": "16.2.12",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3",
+    "vitest": "4.1.10"
+  }
+}

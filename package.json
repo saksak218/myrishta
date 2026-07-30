@@ -1,0 +1,39 @@
+{
+  "name": "myrishta",
+  "private": true,
+  "packageManager": "pnpm@10.14.0",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "corepack pnpm turbo build",
+    "check": "corepack pnpm turbo check",
+    "lint": "corepack pnpm turbo lint",
+    "test": "corepack pnpm turbo test",
+    "format": "corepack pnpm exec prettier --write .",
+    "format:check": "corepack pnpm exec prettier --check .",
+    "db:generate": "corepack pnpm --filter @myrishta/db generate",
+    "db:migrate": "corepack pnpm --filter @myrishta/db migrate",
+    "db:check": "corepack pnpm --filter @myrishta/db check:migrations",
+    "api:dev": "corepack pnpm --filter @myrishta/api dev",
+    "api:generate": "corepack pnpm --filter @myrishta/api generate:openapi",
+    "mobile:start": "corepack pnpm --filter @myrishta/mobile start",
+    "mobile:start:clear": "corepack pnpm --filter @myrishta/mobile start --clear",
+    "admin:dev": "corepack pnpm --filter @myrishta/admin dev"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.8.0",
+    "prettier": "3.9.6",
+    "turbo": "2.10.7",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.65.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "react": "19.2.3",
+      "react-dom": "19.2.3",
+      "@react-native/metro-config": "0.86.0"
+    }
+  }
+}

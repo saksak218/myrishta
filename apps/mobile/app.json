@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "MyRishta",
+    "slug": "myrishta",
+    "scheme": "myrishta",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-router", "expo-splash-screen"],
+    "experiments": {
+      "typedRoutes": true,
+      "autolinkingModuleResolution": true
+    },
+    "android": {
+      "package": "com.myrishta.mobile"
+    },
+    "ios": {
+      "bundleIdentifier": "com.myrishta.mobile",
+      "supportsTablet": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    }
+  }
+}
