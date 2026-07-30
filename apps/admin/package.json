@@ -15,8 +15,8 @@
     "@myrishta/config": "workspace:*",
     "@myrishta/types": "workspace:*",
     "next": "16.2.12",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
     "@types/node": "26.1.2",
