@@ -16,7 +16,7 @@
     "test": "vitest run --exclude dist/**"
   },
   "dependencies": {
-    "@hono/zod-openapi": "1.5.1",
+    "@hono/zod-openapi": "1.5.2",
     "zod": "4.4.3"
   },
   "devDependencies": {
