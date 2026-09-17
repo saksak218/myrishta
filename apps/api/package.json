@@ -13,17 +13,17 @@
     "generate:openapi": "tsx src/generate-openapi.ts"
   },
   "dependencies": {
-    "@hono/node-server": "2.0.12",
-    "@hono/zod-openapi": "1.5.1",
+    "@hono/node-server": "2.1.1",
+    "@hono/zod-openapi": "1.6.3",
     "@myrishta/contracts": "workspace:*",
     "@myrishta/db": "workspace:*",
-    "hono": "4.12.32",
+    "hono": "4.13.7",
     "pino": "10.3.1",
-    "zod": "4.4.3"
+    "zod": "4.6.5"
   },
   "devDependencies": {
-    "@types/node": "26.1.2",
-    "tsx": "4.23.1",
+    "@types/node": "26.5.1",
+    "tsx": "4.23.13",
     "typescript": "6.0.3",
     "vitest": "4.1.10"
   }
